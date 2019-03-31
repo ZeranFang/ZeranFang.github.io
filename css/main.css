@@ -1883,7 +1883,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fafff6;
+  background: #ff9e54;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2721,6 +2721,8 @@ hr {
 }
 @media (max-width: 767px) {
   .site-meta {
+    position: absolute;
+    left: 120px;
     margin-left: 10px;
   }
 }
@@ -2783,6 +2785,11 @@ hr {
 .site-nav-toggle {
   position: static;
   float: right;
+}
+@media (max-width: 767px) {
+  .site-nav-toggle {
+    float: left;
+  }
 }
 .menu {
   float: right;
